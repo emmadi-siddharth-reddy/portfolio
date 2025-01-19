@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: transparent;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .about-me-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .content h1 {
+    color: #00d9ff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  
+  .skills {
+    margin-top: 40px;
+  }
+  
+  .skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .content h1 {
+      font-size: 2rem;
+    }
+  
+    .content p, .skills li {
+      font-size: 1rem;
+    }
+  
+    .skills h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0); /* No movement */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up slightly */
+    }
+  }
+
+  h1 {
+    animation: float 3s ease-in-out infinite; /* Apply floating animation */
+    text-align: center; /* Center the text */
+  }
+  h2{
+    animation: float 3s ease-in-out infinite; 
+  }
